@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## ✅ Brief Testing Instructions
+
+1. **Add Task**  
+   Enter a task and click "Add" → Task appears in the list.
+
+2. **Mark Complete**  
+   Click a task → It shows a strikethrough.
+
+3. **Delete Task**  
+   Click ❌ → Task is removed.
+
+4. **Input Validation**  
+   Try adding a blank task → Alert appears.
+
+5. **localStorage**  
+   Add tasks → Refresh → Tasks are still present.
+
+6. **Sort & Filter**  
+   Use dropdown and sort buttons → Task list updates.
