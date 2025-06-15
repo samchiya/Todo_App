@@ -1,0 +1,9 @@
+/* src/App.css */
+body {
+  background-color: #eaeef3;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  padding: 40px 20px;
+}

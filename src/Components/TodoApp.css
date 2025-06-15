@@ -1,0 +1,106 @@
+/* src/components/TodoApp.css */
+.todo-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  background-color: #f9fafc;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+.input-section button {
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.input-section button:hover {
+  background-color: #0056b3;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.controls select,
+.controls button {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-list li span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.task-list li .delete {
+  background: none;
+  border: none;
+  color: #e00;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-list li .delete:hover {
+  color: #a00;
+}
+
+.task-list .empty {
+  color: #999;
+  text-align: center;
+}
